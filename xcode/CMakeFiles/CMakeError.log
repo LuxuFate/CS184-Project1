@@ -1,0 +1,148 @@
+Performing C++ SOURCE FILE Test HAVE_AVX_EXTENSIONS failed with the following compile output:
+Change Dir: /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_0642c -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_0642c -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 4b488803e90702f09dd049f3c9793c25
+Build description path: /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/XCBuildData/4b488803e90702f09dd049f3c9793c25-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/Debug
+    cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/Debug
+
+CreateBuildDirectory /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build
+    cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build
+
+CreateBuildDirectory /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/EagerLinkingTBDs
+    cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/cmTC_0642c.build/Debug/Objects-normal/x86_64/cmTC_0642c.LinkFileList (in target 'cmTC_0642c' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM
+    write-file /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/cmTC_0642c.build/Debug/Objects-normal/x86_64/cmTC_0642c.LinkFileList
+
+CompileC /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/cmTC_0642c.build/Debug/Objects-normal/x86_64/src.o /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_0642c' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos12.5 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_AVX_EXTENSIONS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/Debug/include -I/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/cmTC_0642c.build/Debug/DerivedSources-normal/x86_64 -I/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/cmTC_0642c.build/Debug/DerivedSources/x86_64 -I/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/cmTC_0642c.build/Debug/DerivedSources -F/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/Debug -mavx -MMD -MT dependencies -MF /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/cmTC_0642c.build/Debug/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/cmTC_0642c.build/Debug/Objects-normal/x86_64/src.dia -c /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/src.cxx -o /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/cmTC_0642c.build/Debug/Objects-normal/x86_64/src.o
+
+Ld /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/Debug/cmTC_0642c normal (in target 'cmTC_0642c' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos12.5 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/EagerLinkingTBDs -L/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/Debug -F/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/EagerLinkingTBDs -F/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/Debug -filelist /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/cmTC_0642c.build/Debug/Objects-normal/x86_64/cmTC_0642c.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/cmTC_0642c.build/Debug/Objects-normal/x86_64/cmTC_0642c_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/build/cmTC_0642c.build/Debug/Objects-normal/x86_64/cmTC_0642c_dependency_info.dat -o /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/Debug/cmTC_0642c
+
+RegisterExecutionPolicyException /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/Debug/cmTC_0642c (in target 'cmTC_0642c' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM
+    builtin-RegisterExecutionPolicyException /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-jtpdIM/Debug/cmTC_0642c
+
+** BUILD SUCCEEDED **
+
+
+
+...and run output:
+Illegal instruction
+Return value: FAILED_TO_RUN
+Source file was:
+
+        #include <immintrin.h>
+        int main()
+        {
+          __m256 a, b, c;
+          const float src[8] = { 1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f, 7.0f, 8.0f };
+          float dst[8];
+          a = _mm256_loadu_ps( src );
+          b = _mm256_loadu_ps( src );
+          c = _mm256_add_ps( a, b );
+          _mm256_storeu_ps( dst, c );
+
+          for( int i = 0; i < 8; i++ ){
+            if( ( src[i] + src[i] ) != dst[i] ){
+              return -1;
+            }
+          }
+
+          return 0;
+        }
+
+Performing C++ SOURCE FILE Test HAVE_AVX2_EXTENSIONS failed with the following compile output:
+Change Dir: /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_0a603 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_0a603 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 0031dbff816b81903259060474df2d63
+Build description path: /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/XCBuildData/0031dbff816b81903259060474df2d63-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build
+    cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build
+
+CreateBuildDirectory /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/Debug
+    cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/Debug
+
+CreateBuildDirectory /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/EagerLinkingTBDs
+    cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/EagerLinkingTBDs
+
+CompileC /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/cmTC_0a603.build/Debug/Objects-normal/x86_64/src.o /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_0a603' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target x86_64-apple-macos12.5 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_AVX2_EXTENSIONS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/Debug/include -I/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/cmTC_0a603.build/Debug/DerivedSources-normal/x86_64 -I/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/cmTC_0a603.build/Debug/DerivedSources/x86_64 -I/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/cmTC_0a603.build/Debug/DerivedSources -F/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/Debug -mavx2 -MMD -MT dependencies -MF /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/cmTC_0a603.build/Debug/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/cmTC_0a603.build/Debug/Objects-normal/x86_64/src.dia -c /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/src.cxx -o /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/cmTC_0a603.build/Debug/Objects-normal/x86_64/src.o
+
+WriteAuxiliaryFile /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/cmTC_0a603.build/Debug/Objects-normal/x86_64/cmTC_0a603.LinkFileList (in target 'cmTC_0a603' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z
+    write-file /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/cmTC_0a603.build/Debug/Objects-normal/x86_64/cmTC_0a603.LinkFileList
+
+Ld /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/Debug/cmTC_0a603 normal (in target 'cmTC_0a603' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target x86_64-apple-macos12.5 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/EagerLinkingTBDs -L/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/Debug -F/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/EagerLinkingTBDs -F/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/Debug -filelist /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/cmTC_0a603.build/Debug/Objects-normal/x86_64/cmTC_0a603.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/cmTC_0a603.build/Debug/Objects-normal/x86_64/cmTC_0a603_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/build/cmTC_0a603.build/Debug/Objects-normal/x86_64/cmTC_0a603_dependency_info.dat -o /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/Debug/cmTC_0a603
+
+RegisterExecutionPolicyException /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/Debug/cmTC_0a603 (in target 'cmTC_0a603' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z
+    builtin-RegisterExecutionPolicyException /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/CMakeScratch/TryCompile-zFUg0Z/Debug/cmTC_0a603
+
+** BUILD SUCCEEDED **
+
+
+
+...and run output:
+Illegal instruction
+Return value: FAILED_TO_RUN
+Source file was:
+
+        #include <immintrin.h>
+        int main()
+        {
+          __m256i a, b, c;
+          const int src[8] = { 1, 2, 3, 4, 5, 6, 7, 8 };
+          int dst[8];
+          a =  _mm256_loadu_si256( (__m256i*)src );
+          b =  _mm256_loadu_si256( (__m256i*)src );
+          c = _mm256_add_epi32( a, b );
+          _mm256_storeu_si256( (__m256i*)dst, c );
+
+          for( int i = 0; i < 8; i++ ){
+            if( ( src[i] + src[i] ) != dst[i] ){
+              return -1;
+            }
+          }
+
+          return 0;
+        }
+

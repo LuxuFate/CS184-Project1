@@ -1,0 +1,202 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "CGL",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CGL-Debug-3b9a7999e8cb0adb5b0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "CGL",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "CGL/deps/glew",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CGL.deps.glew-Debug-c2791c0e621bc88454f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "CGL/deps/glew",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "CGL/deps/glfw",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CGL.deps.glfw-Debug-e1a71f047eb2980de051.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "CGL/deps/glfw",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "CGL/deps/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-CGL.deps.glfw.src-Debug-6c6822ee302da86bedb5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "CGL/deps/glfw/src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Assignment1",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "CGL",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "CGL::@0a5983fe6cfcc4d580bd",
+					"jsonFile" : "target-CGL-Debug-4a70954b3a512af739aa.json",
+					"name" : "CGL",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "draw::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-draw-Debug-bdfdc12b0db89ed0a819.json",
+					"name" : "draw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glew::@7bafe57aeea771ebdd0a",
+					"jsonFile" : "target-glew-Debug-b543eddeea2a4f83f05f.json",
+					"name" : "glew",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glfw::@3a9041b068fa7b25e39f",
+					"jsonFile" : "target-glfw-Debug-5667e44f8395d830682a.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "uninstall::@3efd33267113cda152d1",
+					"jsonFile" : "target-uninstall-Debug-90e8c4c5c5bc04747505.json",
+					"name" : "uninstall",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/cmake-build-debug",
+		"source" : "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

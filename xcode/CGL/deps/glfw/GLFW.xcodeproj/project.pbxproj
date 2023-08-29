@@ -1,0 +1,1179 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1AC14FFC6D0B456BB0EBEC84 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4956F196CF484756B29F3126 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4AF7C0D66D124690D3A05BDA /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				38A51F5BB68C423D88657B33 /* PBXTargetDependency */,
+				BE2AB79EE41E4F27B2AADEB2 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		AEC831C57F314D6A86423051 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F507EBDF27AF4E0C96CF5EF8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				024619D1564D97836EDE7965 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		BF33C7223CFD40DB91CAF33B /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B09B838EC25F42C899ADEAA0 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				07AB71E4D34A7A215E71BBA2 /* Generate CMakeFiles/uninstall */,
+			);
+			dependencies = (
+				D1F39B9DC9CB4F7BB044CCE1 /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		D3DA14B11EFA4F3E9D00B7BD /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C16E152821AB475D9D14E16B /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				276094DF736E4808912EF8DF /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		06DFA65647814F5381FBC8A5 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = 559213BF0CF44A059B338282 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/posix_thread.c */; };
+		0E7B153F15A3474599AA3C0B /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = EF9345E61C3E4022BA54186B /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/posix_thread.h */; };
+		12C55E06DE74442AA21C2F6A /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = 83BAD80228724A7692FC50DC /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_window.m */; };
+		229D1EBF36B54F9DAF115F2D /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 8DD1F39622AA40728E7A99D1 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/window.c */; };
+		2580A9CE97B84F75B357182D /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 252A4C9178554BFDB6CB9CB0 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_time.c */; };
+		2AAF0252BEE0452295408C89 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 64FBD1A4AE134FD48D48AFE3 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/include/GLFW/glfw3.h */; };
+		351CAE166269430389B59B0F /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 6E95834D67AA419088058C3F /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/nsgl_context.h */; };
+		3574D3FE97414E9EA302F6C1 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = 77952B1245CD4E9B836C2F7B /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/monitor.c */; };
+		3A08333D4E994E2EB5D3F36B /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 182674A740BD49F2A3CC4BB1 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_monitor.m */; };
+		4395FD33B9354E0F9C06BF26 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = 5862418B972F485D88C69281 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_init.m */; };
+		45C0B1B0B3704E10B749D53E /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = EDF26072C8EC4BAA84150C3E /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/egl_context.h */; };
+		4A8C4E4A4AC9463592A44F6A /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = 70E5CD92CF2F4E81AA10CDC3 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_joystick.h */; };
+		54CDF8DB0A6E499CBA0AC20A /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B3F25DFF0AD04654BA921D8D /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/CMakeLists.txt */; };
+		61D1EDF3CEEC4542B4117D95 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = FDEA341B7D30493887EDB657 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/mappings.h */; };
+		6FEB35C1545347829B221C06 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 46D04B270D1B416CA6EBB33F /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/nsgl_context.m */; };
+		A792A7364EF44AA59DA509B1 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = F9D1C52113C54D49938F406A /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/egl_context.c */; };
+		B9FD10D810CB4FDC9E854087 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = DDDE558FBA8E41948AFD9890 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/input.c */; };
+		C229DA8E6D0B47029D94B378 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = 6C13B18B59BA43F589ACB21A /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_platform.h */; };
+		C9D0F8D4CB9B428EA5BE4046 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = D218B4E32E7C4D56A04CB481 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/vulkan.c */; };
+		CE43D1CE5E5C487DAE58849A /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 1DC4E7E03A424EC5A9473849 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/internal.h */; };
+		CF5E5E07424440C8A231E506 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = DA3555C2466F44B1949D07FB /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src/glfw_config.h */; };
+		D332A85C56794DC0BE8B9158 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = C018A263FED5434DA2A3FD62 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/init.c */; };
+		D7A9EE0CE3EA4FCCBCA3F1B6 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = AA36E73DB3BB476C8C37BC82 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/include/GLFW/glfw3native.h */; };
+		E351F2AAEDFB4B1D95309504 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 6F0501BCE24C4033B4E11331 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_joystick.m */; };
+		ED32B758A4144A6FA5A11D85 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = D4A79FADF70A45CBB72A488B /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/context.c */; };
+		FDA3EBAD602C40A49C844110 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = E31433149E2A48BEA83DEF31 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/osmesa_context.h */; };
+		FFBC82F5444D46D18DDB964E /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = FF78B347326A400DB6BBE01C /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/osmesa_context.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		315C9C8970014907858BD4C4 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		4C2E9EA417364867937B14C2 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9CE41C9BFC8C40D79224F954 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B0A4ECF1F4234BA9AEBD57A0 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0DEDE1DBDFDC49A2B9E6351E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE3C6761C15418FA973973A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC831C57F314D6A86423051;
+			remoteInfo = ZERO_CHECK;
+		};
+		1CE1C5C1F537403A844E176B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE3C6761C15418FA973973A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC831C57F314D6A86423051;
+			remoteInfo = ZERO_CHECK;
+		};
+		31CE10A35F1E4A86AC229775 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE3C6761C15418FA973973A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AC14FFC6D0B456BB0EBEC84;
+			remoteInfo = ALL_BUILD;
+		};
+		D0BC26170EE94E45A4C89F96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE3C6761C15418FA973973A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC831C57F314D6A86423051;
+			remoteInfo = ZERO_CHECK;
+		};
+		E8CF50E957C84ECD9528BB47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE3C6761C15418FA973973A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 916B207DCD604868A00C003F;
+			remoteInfo = glfw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014874A660764D33B9B4D469 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		182674A740BD49F2A3CC4BB1 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		1DC4E7E03A424EC5A9473849 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		252A4C9178554BFDB6CB9CB0 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		46D04B270D1B416CA6EBB33F /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		559213BF0CF44A059B338282 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		5862418B972F485D88C69281 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		64FBD1A4AE134FD48D48AFE3 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		6C13B18B59BA43F589ACB21A /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		6E95834D67AA419088058C3F /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		6F0501BCE24C4033B4E11331 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		70E5CD92CF2F4E81AA10CDC3 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		71C6D231B1DC42ADB5286E14 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		77952B1245CD4E9B836C2F7B /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+		83BAD80228724A7692FC50DC /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		8DD1F39622AA40728E7A99D1 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		AA36E73DB3BB476C8C37BC82 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		B3F25DFF0AD04654BA921D8D /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C018A263FED5434DA2A3FD62 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		D218B4E32E7C4D56A04CB481 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		D2ADBB8F00C146A88E4D3BA8 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4A79FADF70A45CBB72A488B /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		DA3555C2466F44B1949D07FB /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src/glfw_config.h"; sourceTree = "<absolute>"; };
+		DDDE558FBA8E41948AFD9890 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		E31433149E2A48BEA83DEF31 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
+		EDF26072C8EC4BAA84150C3E /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = src/egl_context.h; sourceTree = SOURCE_ROOT; };
+		EF9345E61C3E4022BA54186B /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		F9D1C52113C54D49938F406A /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		FDEA341B7D30493887EDB657 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
+		FF78B347326A400DB6BBE01C /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB868EC848574D2AB2A0FC72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BB1B1426C05472692F0CF01 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				E6A3FD2DBDB646388A8B6BBF /* Header Files */,
+				6F336E8624654ECEBB2150CE /* Source Files */,
+				B3F25DFF0AD04654BA921D8D /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		289DEDC4D07C45389779F1C5 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				7AFD900F9193494398DC0C3C /* uninstall */,
+				0BB1B1426C05472692F0CF01 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		4983A72560AA4D1A833D1768 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		69CB6CF0FA064DFCBFF697FB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6E0E2E9251ED45B4A28C2CD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2ADBB8F00C146A88E4D3BA8 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F336E8624654ECEBB2150CE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5862418B972F485D88C69281 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_init.m */,
+				6F0501BCE24C4033B4E11331 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_joystick.m */,
+				182674A740BD49F2A3CC4BB1 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_monitor.m */,
+				252A4C9178554BFDB6CB9CB0 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_time.c */,
+				83BAD80228724A7692FC50DC /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_window.m */,
+				D4A79FADF70A45CBB72A488B /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/context.c */,
+				F9D1C52113C54D49938F406A /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/egl_context.c */,
+				C018A263FED5434DA2A3FD62 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/init.c */,
+				DDDE558FBA8E41948AFD9890 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/input.c */,
+				77952B1245CD4E9B836C2F7B /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/monitor.c */,
+				46D04B270D1B416CA6EBB33F /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/nsgl_context.m */,
+				FF78B347326A400DB6BBE01C /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/osmesa_context.c */,
+				559213BF0CF44A059B338282 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/posix_thread.c */,
+				D218B4E32E7C4D56A04CB481 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/vulkan.c */,
+				8DD1F39622AA40728E7A99D1 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7AFD900F9193494398DC0C3C /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				4983A72560AA4D1A833D1768 /* CMake Rules */,
+				71C6D231B1DC42ADB5286E14 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		BD929403CB6C4D3F8EBEF6C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6A3FD2DBDB646388A8B6BBF /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				64FBD1A4AE134FD48D48AFE3 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/include/GLFW/glfw3.h */,
+				AA36E73DB3BB476C8C37BC82 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/include/GLFW/glfw3native.h */,
+				70E5CD92CF2F4E81AA10CDC3 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_joystick.h */,
+				6C13B18B59BA43F589ACB21A /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_platform.h */,
+				EDF26072C8EC4BAA84150C3E /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/egl_context.h */,
+				1DC4E7E03A424EC5A9473849 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/internal.h */,
+				FDEA341B7D30493887EDB657 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/mappings.h */,
+				6E95834D67AA419088058C3F /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/nsgl_context.h */,
+				E31433149E2A48BEA83DEF31 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/osmesa_context.h */,
+				EF9345E61C3E4022BA54186B /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/posix_thread.h */,
+				DA3555C2466F44B1949D07FB /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src/glfw_config.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		EFD0EA7476AE435689BD1B06 = {
+			isa = PBXGroup;
+			children = (
+				289DEDC4D07C45389779F1C5 /* GLFW3 */,
+				FE440D673F08471DB6CC9819 /* ALL_BUILD */,
+				6E0E2E9251ED45B4A28C2CD5 /* Products */,
+				BD929403CB6C4D3F8EBEF6C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE440D673F08471DB6CC9819 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				69CB6CF0FA064DFCBFF697FB /* CMake Rules */,
+				014874A660764D33B9B4D469 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		916B207DCD604868A00C003F /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A810DCC0E81D4C1E8B2A12A9 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				72B5BC07732E459AB04959CD /* Sources */,
+				BB868EC848574D2AB2A0FC72 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ED63846E39F42579D1B276A /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = D2ADBB8F00C146A88E4D3BA8 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEE3C6761C15418FA973973A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = D11214E1670842FCA18311FB /* Build configuration list for PBXProject "GLFW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9CE41C9BFC8C40D79224F954 /* Debug */,
+				4C2E9EA417364867937B14C2 /* Release */,
+				B0A4ECF1F4234BA9AEBD57A0 /* MinSizeRel */,
+				315C9C8970014907858BD4C4 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = EFD0EA7476AE435689BD1B06;
+			projectDirPath = "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw";
+			projectRoot = "";
+			targets = (
+				1AC14FFC6D0B456BB0EBEC84 /* ALL_BUILD */,
+				AEC831C57F314D6A86423051 /* ZERO_CHECK */,
+				916B207DCD604868A00C003F /* glfw */,
+				D3DA14B11EFA4F3E9D00B7BD /* install */,
+				BF33C7223CFD40DB91CAF33B /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		024619D1564D97836EDE7965 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  make -f /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  make -f /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  make -f /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  make -f /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		07AB71E4D34A7A215E71BBA2 /* Generate CMakeFiles/uninstall */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/uninstall";
+			outputPaths = (
+"/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/CMakeFiles/uninstall"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -P /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -P /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -P /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -P /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C8B9B9628600475EB03CBF8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4AF7C0D66D124690D3A05BDA /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw
+  /usr/local/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72B5BC07732E459AB04959CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4395FD33B9354E0F9C06BF26 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_init.m */,
+				E351F2AAEDFB4B1D95309504 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_joystick.m */,
+				3A08333D4E994E2EB5D3F36B /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_monitor.m */,
+				2580A9CE97B84F75B357182D /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_time.c */,
+				12C55E06DE74442AA21C2F6A /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/cocoa_window.m */,
+				ED32B758A4144A6FA5A11D85 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/context.c */,
+				A792A7364EF44AA59DA509B1 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/egl_context.c */,
+				D332A85C56794DC0BE8B9158 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/init.c */,
+				B9FD10D810CB4FDC9E854087 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/input.c */,
+				3574D3FE97414E9EA302F6C1 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/monitor.c */,
+				6FEB35C1545347829B221C06 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/nsgl_context.m */,
+				FFBC82F5444D46D18DDB964E /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/osmesa_context.c */,
+				06DFA65647814F5381FBC8A5 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/posix_thread.c */,
+				C9D0F8D4CB9B428EA5BE4046 /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/vulkan.c */,
+				229D1EBF36B54F9DAF115F2D /* /Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		276094DF736E4808912EF8DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AC14FFC6D0B456BB0EBEC84 /* ALL_BUILD */;
+			targetProxy = 31CE10A35F1E4A86AC229775 /* PBXContainerItemProxy */;
+		};
+		2ED63846E39F42579D1B276A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC831C57F314D6A86423051 /* ZERO_CHECK */;
+			targetProxy = 0DEDE1DBDFDC49A2B9E6351E /* PBXContainerItemProxy */;
+		};
+		38A51F5BB68C423D88657B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 916B207DCD604868A00C003F /* glfw */;
+			targetProxy = E8CF50E957C84ECD9528BB47 /* PBXContainerItemProxy */;
+		};
+		BE2AB79EE41E4F27B2AADEB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC831C57F314D6A86423051 /* ZERO_CHECK */;
+			targetProxy = D0BC26170EE94E45A4C89F96 /* PBXContainerItemProxy */;
+		};
+		D1F39B9DC9CB4F7BB044CCE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEC831C57F314D6A86423051 /* ZERO_CHECK */;
+			targetProxy = 1CE1C5C1F537403A844E176B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0047EEB22B6C4FBE9FF3D7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		0BA59C3B4B4E4170A4FF6412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		10EC6EEEDD72465890603CF4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1575CA0123244A2E8507892F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		16787E2999FF46D582E88B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/build";
+			};
+			name = Release;
+		};
+		28DFE67F9A37491BAF683BB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		30B016B7D24542AF99EC9A2E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		32A29C60E39940269C11AF54 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/include","/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src","/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (" -fPIC     -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3DCC3E2ECDED41E2A4ECD49D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		40CC705352AB4F3789BDD0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4275A130B2F74A789299743B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		432CFFB3D352466CA702B178 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		534CE2F1F8904250BCE942EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		59C623E4B2FA42B2A8A82860 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5A1CC8C38DA34FFB84C4223E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/include","/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src","/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (" -fPIC    -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5B2A385E9B304D6A9CCE8114 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		600552DA0E524889BF655D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/include","/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src","/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (" -fPIC     -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		622A60E368C44C8F8735513B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		78499AD3D686462589CC2C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/build";
+			};
+			name = Debug;
+		};
+		7F857F67B6664029B730694C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DB4036996B044BEC8C584811 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E20A96E19A8743FAB07AF817 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E6FA820A6D5449C88560C7F6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/include","/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/CGL/deps/glfw/src","/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (" -fPIC        -DNDEBUG -fPIC -Wall '-std=c99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FDFFBB31C1424EB4925AA765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4956F196CF484756B29F3126 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CC705352AB4F3789BDD0E4 /* Debug */,
+				0BA59C3B4B4E4170A4FF6412 /* Release */,
+				4275A130B2F74A789299743B /* MinSizeRel */,
+				10EC6EEEDD72465890603CF4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A810DCC0E81D4C1E8B2A12A9 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A1CC8C38DA34FFB84C4223E /* Debug */,
+				600552DA0E524889BF655D8C /* Release */,
+				32A29C60E39940269C11AF54 /* MinSizeRel */,
+				E6FA820A6D5449C88560C7F6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B09B838EC25F42C899ADEAA0 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28DFE67F9A37491BAF683BB9 /* Debug */,
+				3DCC3E2ECDED41E2A4ECD49D /* Release */,
+				DB4036996B044BEC8C584811 /* MinSizeRel */,
+				E20A96E19A8743FAB07AF817 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C16E152821AB475D9D14E16B /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0047EEB22B6C4FBE9FF3D7F9 /* Debug */,
+				FDFFBB31C1424EB4925AA765 /* Release */,
+				5B2A385E9B304D6A9CCE8114 /* MinSizeRel */,
+				1575CA0123244A2E8507892F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D11214E1670842FCA18311FB /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78499AD3D686462589CC2C6B /* Debug */,
+				16787E2999FF46D582E88B76 /* Release */,
+				432CFFB3D352466CA702B178 /* MinSizeRel */,
+				30B016B7D24542AF99EC9A2E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F507EBDF27AF4E0C96CF5EF8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				622A60E368C44C8F8735513B /* Debug */,
+				534CE2F1F8904250BCE942EB /* Release */,
+				59C623E4B2FA42B2A8A82860 /* MinSizeRel */,
+				7F857F67B6664029B730694C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEE3C6761C15418FA973973A /* Project object */;
+}

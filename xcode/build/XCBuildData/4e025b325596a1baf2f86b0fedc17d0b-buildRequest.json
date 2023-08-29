@@ -1,0 +1,61 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a2181bef4159b91a13093c45de7ac20d30"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a263e1ed1cb079995f85e3b44caca809a9"
+    }
+  ],
+  "containerPath" : "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/Assignment1.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/Mattlu/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/Mattlu/Library/Developer/Xcode/DerivedData/Assignment1-clnsskitvoejuieunvhqbhzukioz/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/Mattlu/Library/Developer/Xcode/DerivedData/Assignment1-clnsskitvoejuieunvhqbhzukioz/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

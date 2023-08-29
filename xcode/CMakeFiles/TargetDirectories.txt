@@ -1,0 +1,16 @@
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/draw.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/install.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CMakeFiles/ZERO_CHECK.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/CMakeFiles/CGL.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/CMakeFiles/install.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/CMakeFiles/ALL_BUILD.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/CMakeFiles/ZERO_CHECK.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glew/CMakeFiles/glew.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glew/CMakeFiles/install.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/CMakeFiles/uninstall.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/CMakeFiles/install.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/CMakeFiles/ALL_BUILD.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/CMakeFiles/ZERO_CHECK.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src/CMakeFiles/glfw.dir
+/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/CGL/deps/glfw/src/CMakeFiles/install.dir

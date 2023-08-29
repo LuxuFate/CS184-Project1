@@ -1,0 +1,79 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a2181bef4159b91a13093c45de7ac20d30"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a21a6b9b1b797b1b1e9180ba0086e931cd"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a2df072db7d7d9ad79aec1269004135c94"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a263e1ed1cb079995f85e3b44caca809a9"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a2be738f8d20d7fd3c256c75964e9fae27"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a2efc14424036ecfe393424b1fd4ec721d"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a278fdbb62664f2d26141a971c44380916"
+    },
+    {
+      "guid" : "dad41c49eb3f19ef4ca90b72cb9b01a2c37825c8474766341014c84af6ef13ae"
+    }
+  ],
+  "containerPath" : "/Users/Mattlu/Desktop/CS184/p1-rasterizer-sp23-susfx/xcode/Assignment1.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx13.1",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/Mattlu/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/Mattlu/Library/Developer/Xcode/DerivedData/Assignment1-clnsskitvoejuieunvhqbhzukioz/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/Mattlu/Library/Developer/Xcode/DerivedData/Assignment1-clnsskitvoejuieunvhqbhzukioz/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

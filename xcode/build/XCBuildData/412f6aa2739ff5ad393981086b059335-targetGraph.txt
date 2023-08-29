@@ -1,0 +1,21 @@
+Target dependency graph (8 targets)
+glew in Assignment1, no dependencies
+glfw in Assignment1, no dependencies
+CGL in Assignment1, depends on:
+glew in Assignment1 (explicit)
+glfw in Assignment1 (explicit)
+ZERO_CHECK in Assignment1, no dependencies
+draw in Assignment1, depends on:
+CGL in Assignment1 (explicit)
+glew in Assignment1 (explicit)
+glfw in Assignment1 (explicit)
+ZERO_CHECK in Assignment1 (explicit)
+ALL_BUILD in Assignment1, depends on:
+draw in Assignment1 (explicit)
+CGL in Assignment1 (explicit)
+glew in Assignment1 (explicit)
+glfw in Assignment1 (explicit)
+ZERO_CHECK in Assignment1 (explicit)
+install in Assignment1, depends on:
+ALL_BUILD in Assignment1 (explicit)
+uninstall in Assignment1, no dependencies
